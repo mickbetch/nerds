@@ -39,6 +39,9 @@ a {
   color: #000000;
   background-color: #eeeeee;
 }
+.main-header .container {
+  background-color: #eeeeee;
+}
 .site-navigation,
 .user-navigation {
   list-style: none;
@@ -348,7 +351,7 @@ a {
 }
 .contacts {
   position: absolute;
-  top: 55px;
+  top: 15px;
   left: 140px;
   padding-top: 49px;
   padding-left: 50px;
@@ -848,13 +851,11 @@ main h1 {
 /*FOOTER*/
 /* СЕТКА для CATALOG.HTML*/
 /* ХЕДЕР */
-.main-header.catalog-header {
-  min-height: 357px;
-}
 .page-title {
   margin: 0;
   padding: 0;
-  margin-top: 78px;
+  padding-top: 78px;
+  padding-bottom: 115px;
   text-align: center;
 }
 /* ХЕДЕР */
@@ -1239,6 +1240,9 @@ a[href].main-header-logo:active img {
   position: relative;
   background-color: #eeeeee;
   margin-bottom: 80px;
+}
+.slider .container {
+  background-color: #eeeeee;
 }
 .slider-controls {
   position: absolute;
